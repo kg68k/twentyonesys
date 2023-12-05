@@ -1,0 +1,11 @@
+*		.title	(V)TwentyOne.sys - patchlevel.mac
+
+N_VERSION:	.equ	$136c			;16bit
+N_MODIFIED:	.equ	14			; 8bit
+N_PATCHLEVEL:	.equ	10			; 8bit
+
+PATCHLEVEL:	.reg	('0'+N_PATCHLEVEL/10),('0'+N_PATCHLEVEL.mod.10)
+PATCHDATE:	.reg	'2002/07/13'
+PATCHAUTHOR:	.reg	'立花えり子'
+
+*		.end
