@@ -9,7 +9,7 @@ LDFLAGS	= -x
 
 OBJS = header.o patch.o func.o vfunc.o namecheck.o vnamecheck.o vfat.o u2stbl.o twon.o
 BINS = twentyone.sys vtwentyone.sys twon.r
-DOCS = twentyonesys.txt
+DOCS = twentyonesys.txt CHANGELOG.txt
 
 ZIPFILE = twsys.zip
 

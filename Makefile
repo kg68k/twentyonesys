@@ -1,4 +1,4 @@
-# Makefile for HAS060X.X (convert source code from UTF-8 to Shift_JIS)
+# Makefile for (V)TwentyOne.sys (convert source code from UTF-8 to Shift_JIS)
 #   Do not use non-ASCII characters in this file.
 
 MKDIR_P = mkdir -p
